@@ -96,4 +96,6 @@ return require('packer').startup(function(use)
   -- Auto parirs 
   use {"windwp/nvim-autopairs"}
 
+  -- Testing comment
+
 end )
