@@ -5,7 +5,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Even while appending it will stay in place
-vim.keymap.set("n", "J", "mzJ`z")
+vim.keymap.set("n", "H", "mzJ`z")
 
 -- This too are just zz ( center the screen)
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
@@ -55,8 +55,8 @@ vim.keymap.set("v", "<S-TAB>", "<gv")
 
 -- To Switch between buffers
 
-vim.keymap.set("n", "L", "<cmd>:bnext<CR>")
-vim.keymap.set("n", "H", "<cmd>:bprevious<CR>")
+vim.keymap.set("n", "K", "<cmd>:bnext<CR>")
+vim.keymap.set("n", "J", "<cmd>:bprevious<CR>")
 vim.keymap.set("n", "<leader>d", "<cmd>:bdelete<CR>")
 
 ----------------------------------------------

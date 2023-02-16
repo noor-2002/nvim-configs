@@ -15,14 +15,6 @@ return require('packer').startup(function(use)
  
   use 'sainnhe/gruvbox-material' 
 
-  -- use({
-  --         'rose-pine/neovim',
-  --         as = 'rose-pine',
-  --         config = function()
-  --       	  vim.cmd('colorscheme rose-pine')
-  --         end
-  -- })
-
   use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use( 'nvim-treesitter/playground' )
   use( 'mbbill/undotree' )
@@ -96,6 +88,5 @@ return require('packer').startup(function(use)
   -- Auto parirs 
   use {"windwp/nvim-autopairs"}
 
-  -- Testing comment
 
 end )
